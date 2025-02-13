@@ -8,7 +8,7 @@ import langgraph
 from langgraph.graph import StateGraph
 
 # Set your API key
-GOOGLE_API_KEY = "AIzaSyBS1L2JanQLMbtK3tEYA-z5i0UW9beGMoA"
+GOOGLE_API_KEY = "your_api_key"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 def query_google(state):
